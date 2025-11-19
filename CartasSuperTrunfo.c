@@ -10,7 +10,7 @@ int main() {
   char estado, código, cidade; 
   
   printf ("A /n");
-  scanf ("%s", &estado); 
+  scanf ("%s", &estado);
   
   printf ("A01 /n");
   scanf ("%s", &código);
