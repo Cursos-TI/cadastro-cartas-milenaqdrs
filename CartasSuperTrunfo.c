@@ -1,10 +1,10 @@
-#include <stdio.h>
+  #include <stdio.h>
 
-int main() {
+  int main() {
   int população, pontosturísticos;
   float área, PIB;
   char estado, código, cidade; 
-  
+
   printf ("A /n");
   scanf ("%s", &estado);
   
@@ -25,7 +25,7 @@ int main() {
   
   printf ("50 /n");
   scanf ("%d", &pontosturísticos);
-
+    
   printf ("B /n");
   scanf ("%s", &estado);
   
