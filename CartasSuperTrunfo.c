@@ -2,7 +2,7 @@
 
     int main() {
     int população, pontosturísticos;
-    double área, PIB;
+    double área, pib;
     char estado, código, cidade; 
   
     printf ("Digite o estado: \n");
@@ -20,8 +20,8 @@
     printf ("Digite a área: \n");
     scanf ("%.2f", &área);
   
-    printf ("Digite o PIB: \n");
-    scanf ("%.2f", &PIB);
+    printf ("Digite o pib: \n");
+    scanf ("%.2f", &pib);
   
     printf ("Digite os pontosturísticos: \n");
     scanf ("%d", &pontosturísticos);
