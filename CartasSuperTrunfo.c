@@ -1,51 +1,29 @@
-  #include <stdio.h>
+#include <stdio.h>
 
-  int main() {
-  int população, pontosturísticos;
-  float área, PIB;
-  char estado, código, cidade; 
-
-  printf ("A /n");
-  scanf ("%s", &estado);
+    int main() {
+    int população, pontosturísticos;
+    double área, PIB;
+    char estado, código, cidade; 
   
-  printf ("A01 /n");
-  scanf ("%s", &código);
-  
-  printf ("SãoPaulo /n");
-  scanf ("%s", &cidade);
-  
-  printf ("12325000 /n");
-  scanf ("%d", &população);
-  
-  printf ("1521.11km² /n");
-  scanf ("%f", &área);
-  
-  printf ("699.28 /n");
-  scanf ("%f", &PIB);
-  
-  printf ("50 /n");
-  scanf ("%d", &pontosturísticos);
+    printf ("Digite o estado: \n");
+    scanf ("%s", &estado);
     
-  printf ("B /n");
-  scanf ("%s", &estado);
+    printf ("Digite o código: \n");
+    scanf ("%s", &código);
   
-  printf ("BO2 /n");
-  scanf ("%s", &código);
+    printf ("Digite a cidade: \n");
+    scanf ("%s", &cidade);
   
-  printf ("RiodeJaneiro /n");
-  scanf ("%s", &cidade);
+    printf ("Digite a população: \n");
+    scanf ("%d", &população);
   
-  printf ("6748000 /n");
-  scanf ("%d", &população);
+    printf ("Digite a área: \n");
+    scanf ("%.2f", &área);
   
-  printf ("1200.25km² /n");
-  scanf ("%f", &área);
+    printf ("Digite o PIB: \n");
+    scanf ("%.2f", &PIB);
   
-  printf ("300.50 /n");
-  scanf ("%f", &PIB);
-  
-  printf ("30 /n");
-  scanf ("%d", &pontosturísticos);
-    
-return 0;
-} 
+    printf ("Digite os pontosturísticos: \n");
+    scanf ("%d", &pontosturísticos);
+    return 0;
+    } 
